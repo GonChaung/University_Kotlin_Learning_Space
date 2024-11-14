@@ -52,6 +52,7 @@ fun factorial(num : Int): Int{
 }*/
 
 fun main() {
-    
+    val name = "hein"
+    println("hello ${name + " ee"}")
 }
 
