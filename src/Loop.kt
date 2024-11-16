@@ -54,5 +54,11 @@ fun factorial(num : Int): Int{
 fun main() {
     val name = "hein"
     println("hello ${name + " ee"}")
+    println("max of 5 and 10 is ${maxOf(5,10)}")
+}
+
+fun maxOf(firstNum : Int, secondNum : Int) : Int {
+    val max = if (firstNum > secondNum) firstNum else secondNum
+    return max
 }
 
